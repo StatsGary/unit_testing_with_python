@@ -27,5 +27,5 @@ class TestCalc(unittest.TestCase):
         with self.assertRaises(ValueError):
             calc.divide(10,0)
 
-if __name__ == '__main__':
-    unittest.main()
+#if __name__ == '__main__':
+#    unittest.main()
