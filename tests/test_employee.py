@@ -1,8 +1,11 @@
 #Usage python -m unittest test_employee.py
 import unittest
-from unittest.mock import patch
-from app.employee import Employee
+import sys
 
+from unittest.mock import patch
+from employee import Employee
+
+sys.path.insert(0, 'unit_testing_with_python/app')
 
 
 class TestEmployee(unittest.TestCase):
