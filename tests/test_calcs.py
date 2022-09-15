@@ -1,7 +1,7 @@
 #Usage python -m unittest test_calcs.py
 
 import unittest
-import calc as test_calc
+import calc_root as test_calc
 
 class TestCalc(unittest.TestCase):
     def test_add(self):
