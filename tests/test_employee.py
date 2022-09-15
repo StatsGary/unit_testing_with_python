@@ -1,8 +1,9 @@
 #Usage python -m unittest test_employee.py
 import unittest
 import sys
-from unittest.mock import patch
 from employee import Employee
+from unittest.mock import patch
+
 
 
 class TestEmployee(unittest.TestCase):
