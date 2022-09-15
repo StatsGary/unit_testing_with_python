@@ -56,5 +56,5 @@ class TestEmployee(unittest.TestCase):
             mocked_get.assert_called_with('http://company.com/Pipersand/June')
             self.assertEqual(schedule, 'Bad response!')
 
-if __name__ == '__main__':
-   unittest.main()
+# if __name__ == '__main__':
+#    unittest.main()
