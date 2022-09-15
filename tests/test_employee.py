@@ -2,7 +2,7 @@
 
 import unittest
 from unittest.mock import patch
-from employee import Employee
+from app.employee import Employee
 
 class TestEmployee(unittest.TestCase):
     @classmethod
