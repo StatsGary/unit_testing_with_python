@@ -1,4 +1,4 @@
-import employee as emp
+import tests.employee as emp
 
 gary = emp.Employee('Gary', 'Hutson', 35000)
 #gary.apply_raise()

@@ -1,11 +1,8 @@
 #Usage python -m unittest test_employee.py
 import unittest
 import sys
-
 from unittest.mock import patch
 from employee import Employee
-
-sys.path.insert(0, 'unit_testing_with_python/app')
 
 
 class TestEmployee(unittest.TestCase):
@@ -56,5 +53,5 @@ class TestEmployee(unittest.TestCase):
             mocked_get.assert_called_with('http://company.com/Pipersand/June')
             self.assertEqual(schedule, 'Bad response!')
 
-# if __name__ == '__main__':
-#    unittest.main()
+if __name__ == '__main__':
+   unittest.main()

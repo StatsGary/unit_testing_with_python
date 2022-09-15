@@ -1,7 +1,10 @@
 #Usage python -m unittest test_calcs.py
 
 import unittest
-import calc_root as test_calc
+import sys
+sys.path.append('../unit_testing_with_python')
+import functions.calcer as test_calc
+
 
 class TestCalc(unittest.TestCase):
     def test_add(self):
