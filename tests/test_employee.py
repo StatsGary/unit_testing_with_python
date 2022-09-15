@@ -1,15 +1,16 @@
 #Usage python -m unittest test_employee.py
 import unittest
 import sys
-from employee import Employee
 from unittest.mock import patch
+from employee import Employee
+
 
 
 
 class TestEmployee(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        print('Setup Class')
+        print('Testing Employee class')
 
     @classmethod
     def tearDownClass(cls):
